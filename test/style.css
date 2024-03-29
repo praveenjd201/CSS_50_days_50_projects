@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+ background-color: red;
+ display: inline-flex;
+ flex-direction: column;
+ padding: 20px 30px;
+}

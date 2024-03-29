@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  box-sizing: border-box;
+  
+}
+
+body{
+  background: linear-gradient(rgb(255, 145, 0),rgb(133, 131, 131));  
+  font-family: 'muli',sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  overflow: hidden;
+  margin:0;
+
+
+}
+
+.search-container{
+  position: relative;
+  height: 50px;
+}
+
+.search-container .input{
+
+  width: 50px;
+  height: 50px;
+  padding: 15px;  
+  background-color: white;
+  font-size: 18px;
+  border: none;
+  transition: width 0.3s ease;
+  
+}
+
+.btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 50px;
+  width: 50px;
+  border:none;
+  transition: transform 0.3s ease;
+}
+.btn:focus,
+.input:focus{
+  outline: none;
+}
+
+.search-container.active .input{
+  width: 200px;
+} 
+
+.search-container.active .btn{
+  transform: translateX(49px);
+}
