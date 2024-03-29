@@ -11,7 +11,7 @@ Welcome to our project repository! Below are the links to access different proje
 5. [Rotating_navigation](https://css-50-days-50-projects.vercel.app/Rotating_navigation/index.html):
 6. [Scroll Animation](https://css-50-days-50-projects.vercel.app/Scroll%20Animation/index.html):
 7. [splitpageAnimation](https://css-50-days-50-projects.vercel.app/splitpageAnimation/index.html):
-8. 8. [Form-wave-Animation](https://css-50-days-50-projects.vercel.app/Form-wave-Animation/index.html):
+8. [Form-wave-Animation](https://css-50-days-50-projects.vercel.app/Form-wave-Animation/index.html):
 
 
 Feel free to explore each project by clicking on the respective links above.
